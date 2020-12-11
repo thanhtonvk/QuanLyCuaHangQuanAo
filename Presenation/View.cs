@@ -12,7 +12,7 @@ namespace QuanLyCuaHangQuanAo.Presenation
     {
         private static void Menu()
         {
-            Console.WriteLine("                                 ══════════════════════════════════════════════════_");
+            Console.WriteLine("                                  ══════════════════════════════════════════════════");
             Console.WriteLine("                                 ║           QUẢN LÝ CỬA HÀNG QUẦN ÁO               ║");
             Console.WriteLine("                                 ║══════════════════════════════════════════════════║");
             Console.WriteLine("                                 ║1. QUẢN LÝ KHO                                    ║");
@@ -65,7 +65,7 @@ namespace QuanLyCuaHangQuanAo.Presenation
                         Kho_GUI.Run(kho_BLL, kho_DAL, kho);
                         Console.WriteLine("                                 Nhập phím bất kì để tiếp tục");
                         Console.ReadLine();
-                        Console.Clear();
+                      
                         break;
                     case 2:
                         Console.Clear();
