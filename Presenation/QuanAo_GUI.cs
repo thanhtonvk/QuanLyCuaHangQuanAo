@@ -11,13 +11,13 @@ namespace QuanLyCuaHangQuanAo.Presenation
     {
         public static void Menu()
         {
-            Console.WriteLine("                                 ══════════════════════════════════════════════════_");
-            Console.WriteLine("                                 ║                       QUẢN LÝ QUẦN ÁO                 ║");
+            Console.WriteLine("                                 ══════════════════════════════════════════════════");
+            Console.WriteLine("                                 ║                       QUẢN LÝ QUẦN ÁO           ║");
             Console.WriteLine("                                 ║══════════════════════════════════════════════════║");
-            Console.WriteLine("                                 ║1. Nhập thêm quần áo                                   ║");
+            Console.WriteLine("                                 ║1. Nhập thêm quần áo                              ║");
             Console.WriteLine("                                 ║2. Hiện thị danh sách                             ║");
             Console.WriteLine("                                 ║3. Sửa thông tin                                  ║");
-            Console.WriteLine("                                 ║4. Xóa quần áo                                         ║");
+            Console.WriteLine("                                 ║4. Xóa quần áo                                    ║");
             Console.WriteLine("                                 ║5. Tìm kiếm                                       ║");
             Console.WriteLine("                                 ║0.Thoát                                           ║");
             Console.WriteLine("                                 ║══════════════════════════════════════════════════║");

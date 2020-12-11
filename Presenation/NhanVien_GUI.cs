@@ -10,7 +10,7 @@ namespace QuanLyCuaHangQuanAo.Presenation
     {
         public static void Menu()
         {
-            Console.WriteLine("                                 ══════════════════════════════════════════════════_");
+            Console.WriteLine("                                  ══════════════════════════════════════════════════");
             Console.WriteLine("                                 ║               QUẢN LÝ NHÂN VIÊN                  ║");
             Console.WriteLine("                                 ║══════════════════════════════════════════════════║");
             Console.WriteLine("                                 ║1. Nhập thêm nhân viên                            ║");

@@ -34,7 +34,7 @@ namespace QuanLyCuaHangQuanAo.Presenation
         static Kho_DAL kho_DAL = new Kho_DAL();
         static NhanVien_BLL nhanVien_BLL = new NhanVien_BLL();
         static NhanVien_DAL nhanVien_DAL = new NhanVien_DAL();
-        static QuanAo_BLL quanAo_BLL= new QuanAo_BLL();
+        static QuanAo_BLL quanAo_BLL = new QuanAo_BLL();
         static QuanAo_DAL quanAo_DAL = new QuanAo_DAL();
         static ArrayList hoadonnhap = new ArrayList();
         static ArrayList hoadonxuat = new ArrayList();
@@ -65,7 +65,7 @@ namespace QuanLyCuaHangQuanAo.Presenation
                         Kho_GUI.Run(kho_BLL, kho_DAL, kho);
                         Console.WriteLine("                                 Nhập phím bất kì để tiếp tục");
                         Console.ReadLine();
-                      
+                        Console.Clear();
                         break;
                     case 2:
                         Console.Clear();
